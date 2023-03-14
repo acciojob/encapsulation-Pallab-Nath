@@ -5,8 +5,8 @@ public class Main {
 
     public static void main (String args[])
     {
-        RWOnly raw = new RWOnly("polu");
-        raw.setName("jaggy");
+        RWOnly raw = new RWOnly();
+        raw.setName("polu");
         String s = raw.getName();
         System.out.println(s);
     }
